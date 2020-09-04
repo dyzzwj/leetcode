@@ -1,0 +1,22 @@
+package com.dyzwj.demo1;
+
+/**
+ * 单链表反转
+ */
+public class ListNode {
+
+    int val;
+    ListNode next;
+
+    public ListNode() {
+    }
+
+    ListNode(int x) { val = x; }
+
+    public ListNode(int val, ListNode next) {
+        this.val = val;
+        this.next = next;
+    }
+
+
+}
