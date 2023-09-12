@@ -22,13 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbbd139e-6c8d-4133-a109-3606fe09dea1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c75e052b-bf64-43e9-9c12-45c5b96348ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dyzwj/sort/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dyzwj/sort/冒泡排序.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dyzwj/sort/选择排序.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/dyzwj/demo2/IndexOf.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/dyzwj/demo2/IndexOf.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,11 +62,13 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$USER_HOME$/Documents/software/apache-maven-3.6.1/repository" />
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
         <option name="userSettingsFile" value="$USER_HOME$/Documents/software/apache-maven-3.6.1/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -79,26 +80,27 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="leetcode.id" />
-  </component>
-  <component name="RunManager" selected="Application.ListNodeReverse">
-    <configuration name="ListNodeReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dyzwj.demo1.ListNodeReverse" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.冒泡排序">
+    <configuration name="冒泡排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dyzwj.sort.冒泡排序" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.dyzwj.demo1.*" />
+          <option name="PATTERN" value="com.dyzwj.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,8 +108,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dyzwj.demo1.MaxSubArray" />
+    <configuration name="选择排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dyzwj.sort.选择排序" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dyzwj.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListNodeReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dyzwj.demo1.ListNodeReverse" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
@@ -132,19 +147,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlusOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.dyzwj.demo1.PlusOne" />
-      <module name="leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.dyzwj.demo1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leetcode" />
       <option name="PACKAGE_NAME" value="" />
@@ -157,19 +159,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MaxSubArray" />
-      <item itemvalue="Application.PlusOne" />
+      <item itemvalue="Application.冒泡排序" />
+      <item itemvalue="Application.选择排序" />
       <item itemvalue="Application.MySqrt" />
       <item itemvalue="Application.ListNodeReverse" />
       <item itemvalue="JUnit.Test1.test1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.冒泡排序" />
+        <item itemvalue="Application.选择排序" />
         <item itemvalue="Application.ListNodeReverse" />
         <item itemvalue="Application.MySqrt" />
         <item itemvalue="JUnit.Test1.test1" />
-        <item itemvalue="Application.PlusOne" />
-        <item itemvalue="Application.MaxSubArray" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +181,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="fbbd139e-6c8d-4133-a109-3606fe09dea1" name="Default Changelist" comment="" />
+      <changelist id="c75e052b-bf64-43e9-9c12-45c5b96348ce" name="Changes" comment="" />
       <created>1595243348579</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -199,6 +201,7 @@
       <workItem from="1598838688016" duration="2190000" />
       <workItem from="1610251857675" duration="628000" />
       <workItem from="1610252612678" duration="234000" />
+      <workItem from="1694531352976" duration="2334000" />
     </task>
     <servers />
   </component>
@@ -232,13 +235,10 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="229" y="25" key="SettingsEditor" timestamp="1610252841467">
-      <screen x="0" y="25" width="1440" height="799" />
-    </state>
-    <state x="229" y="25" key="SettingsEditor/0.25.1440.799@0.25.1440.799" timestamp="1610252841467" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
