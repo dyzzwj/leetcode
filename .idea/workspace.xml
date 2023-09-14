@@ -22,8 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c75e052b-bf64-43e9-9c12-45c5b96348ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dyzwj/array/合并数组.java" afterDir="false" />
+    <list default="true" id="fbbd139e-6c8d-4133-a109-3606fe09dea1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dyzwj/array/多数元素.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dyzwj/array/无重复字符的最长子串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/dyzwj/array/连续子数组.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,13 +93,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.冒泡排序">
+  <component name="RunManager" selected="Application.多数元素">
     <configuration name="冒泡排序" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dyzwj.sort.冒泡排序" />
       <module name="leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.dyzwj.sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="多数元素" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dyzwj.array.多数元素" />
+      <module name="leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dyzwj.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -169,6 +184,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.多数元素" />
       <item itemvalue="Application.冒泡排序" />
       <item itemvalue="Application.MySqrt" />
       <item itemvalue="Application.ListNodeReverse" />
@@ -176,6 +192,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.多数元素" />
         <item itemvalue="Application.冒泡排序" />
         <item itemvalue="Application.ListNodeReverse" />
         <item itemvalue="Application.MySqrt" />
