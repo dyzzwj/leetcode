@@ -1,5 +1,8 @@
 package com.dyzwj.array;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * 题目：给定一个字符串 s ，请你找出其中不含有重复字符的最长子串的长度。
  *
@@ -24,4 +27,26 @@ package com.dyzwj.array;
 public class 无重复字符的最长子串 {
 
 
+    public static int aa(String str){
+        Set<Character> window = new HashSet<>();
+        int length = str.length();
+        int i = 0;
+        int j = 0;
+        int max = 0;
+        while (i < length && j <length){
+            if(!window.contains(str.charAt(j))){
+                window.add(str.charAt(j));
+                j++;
+                max = Math.max(max, j-i);
+            }else {
+                window.remove(str.charAt(i));
+                i++;
+            }
+
+        }
+
+
+
+        return max;
+    }
 }

@@ -23,10 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbbd139e-6c8d-4133-a109-3606fe09dea1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dyzwj/array/多数元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dyzwj/array/无重复字符的最长子串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/dyzwj/array/连续子数组.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/dyzwj/array/无重复字符的最长子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/dyzwj/array/无重复字符的最长子串.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
